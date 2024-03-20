@@ -1,0 +1,56 @@
+## Creating a blog about the difference between HTTP/1.1 vs HTTP/2
+
+  - The Hyper Text Transfer Protocol is most commonly used protocol in the world.
+  - https protocol is used for viewing web page on the internet.
+  - Whenever we type web address https automatically added before on the web address.
+  - intial state we use http , it have a problem as far as security and this why https was developed.
+  - https stands for secure hypertext transfer protocol .
+  - https ensures that all the data that is being transferred over the internet between computers and servers is secure by making the data impossible to read by using encryption algrithms.
+
+  - https use the secure sockets layer,it  is a protocol that is used to ensure security on the internet use public key encryption to secure the data.
+
+  - Now we discussed difference between http/1.1 vs http/2 based on the perfomance 
+
+  - Hypertext Transfer Protocol (HTTP) it have set of standards allowing internet users to exchange website information. 
+
+  - Since 1991 we use http. HTTP/2 was released in 2015.
+
+## MULTIPLEXING 
+###  multiple signals are transmitted over a physical medium
+
+ - HTTP/1.1 only allows a single request and response to be sent over a single connection at a time.
+
+-  HTTP/2 allows multiple requests and responses to be sent over a single connection.
+
+## HEADER
+### Data Storing Blocks
+
+- HTTP/1.1 sends headers with each request and response,because of that result is lot of overhead and slow down performance.
+
+- HTTP/2 uses header compression to reduce the size of header data, This also helps to improve the efficiency of the protocol and reduce latency.
+
+## PRIORITIZE REQUESTS
+### Prioritizing Network Traffic
+
+- HTTP/1.1 does not provide a prioritizing requests, that means requests can be processed in any order, based on their importance or urgency.
+
+- HTTP/2 allows the client to specify the priority of requests, it can improve the responsiveness of the protocol and reduce latency.
+
+## SERVER PUSH
+### The delivery of information to the Web browser from the user
+
+- HTTP/ 1.1 does not support server push, because the server cannot initiate the transfer of data to the client without first receiving a request.
+
+- HTTP/2 allows the server to send multiple responses to a single request, it can improve web application performance like  speed and efficiency.
+
+## TCP Connections
+
+### This is a connection-oriented protocol in communication field & it is used to exchange the messages between different devices over a network
+
+- HTTP/1.1 is the underlying TCP protocol for reliable data transfer.
+
+- HTTP/2 is use binary protocol and it is  allows to multiple parallel requests over a single TCP connection.
+
+
+
+

@@ -1,0 +1,58 @@
+
+## Create a blog about Objects And Its Internal Representation In JavaScript
+
+- In JavaScript , object is one of the data type but it’s differ from other data types like( Number, String, Boolean,null, undefined).
+
+- It have collection of properties.
+
+- The properties of the object is act like a bridge. 
+
+- The property of the object lay the bridge between keyword and value.
+
+
+
+## Variable declaration
+
+- In Object , the  variable declared with the keyword “new”.
+
+- Object constructor Syntax
+   ```javascript
+   let objname = new object ;
+   ```
+ ##  Declaration of Keyword & Values 
+
+- Objects in JavaScript defined in the form of “key: value” pairs. 
+
+- **Examples:**
+``` javascript
+const person ={
+    Name : "jayadurgha",
+    age : 28 ,
+    batch ID : "FSD58WD3T",
+}
+```
+- **Explanation:**
+
+- Here "person" is the Property
+- "name, age, batch ID"- key
+- "jayadurgha,28,FSD58WD3T"- values
+
+
+## JavaScript methods 
+ Methods means -  functions stored as object properties.
+
+- **Examples:**
+
+``` javascript
+const person ={
+    Name : "jayadurgha",
+    age : 28 ,
+    batch ID : "FSD58WD3T",
+
+    fullname: function(){
+        console.log(this.firstname);
+    },
+}
+```
+
+- Here "this" is a one of the variable , it is bind with property and created the new object.
